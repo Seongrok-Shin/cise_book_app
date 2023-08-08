@@ -1,8 +1,8 @@
-// require('dotenv').config({ path: './.env' });
+require('dotenv').config({ path: './.env' });
 const mongoose = require('mongoose');
-// const db = process.env.MONGO_URI;
+const db = process.env.MONGO_URI;
 const config = require('config');
-const db = "mongodb+srv://SeongrokShin:YtTy42w5ksqIF6Gl@cluster0.ohhlzqd.mongodb.net/?retryWrites=true&w=majority"
+// const db = "mongodb+srv://SeongrokShin:YtTy42w5ksqIF6Gl@cluster0.ohhlzqd.mongodb.net/?retryWrites=true&w=majority"
 
 const connectDB = async () => {
     try {
