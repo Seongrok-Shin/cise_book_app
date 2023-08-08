@@ -9,7 +9,7 @@ function ShowBookList() {
 
     useEffect(() => {
         axios
-            .get('cise-book-app-api.vercel.app/api/books')
+            .get('https://cise-book-app-api.vercel.app/api/books')
             .then((res) => {
                 setBooks(res.data);
             })
