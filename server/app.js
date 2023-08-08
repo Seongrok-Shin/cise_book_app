@@ -14,7 +14,7 @@ connectDB();
 
 // cors
 app.use(cors({
-    origin: true,
+    origin: ["https://cise-book-app-api.vercel.app"],
     credentials: true
 }));
 
